@@ -10,14 +10,6 @@
 
 > **A comprehensive, all-in-one network reconnaissance and vulnerability scanner written in pure Go — no external dependencies.**
 
----
-
-## ⚠️ Legal Disclaimer
-
-**RECON-X is intended for authorized security testing only.**  
-Do not use this tool against systems you do not own or have explicit written permission to test. Unauthorized use is illegal and unethical. The author assumes no liability for misuse.
-
----
 
 ## 📖 Table of Contents
 
