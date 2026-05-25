@@ -64,7 +64,7 @@ git clone https://github.com/gopalakrishnsak/recon-x.git
 cd recon-x
 
 # Build
-go build -o reconx main.go
+go build -o reconx recon-x.go
 
 # (Linux/macOS) Make executable and move to PATH
 chmod +x reconx
@@ -78,13 +78,13 @@ reconx --help
 
 ```bash
 # Windows
-GOOS=windows GOARCH=amd64 go build -o reconx.exe main.go
+GOOS=windows GOARCH=amd64 go build -o reconx.exe recon-x.go
 
 # Linux ARM (e.g., Raspberry Pi)
-GOOS=linux GOARCH=arm64 go build -o reconx-arm main.go
+GOOS=linux GOARCH=arm64 go build -o reconx-arm recon-x.go
 
 # macOS (Apple Silicon)
-GOOS=darwin GOARCH=arm64 go build -o reconx-mac main.go
+GOOS=darwin GOARCH=arm64 go build -o reconx-mac recon-x.go
 ```
 
 ### SYN Scan (optional — requires elevated privileges)
